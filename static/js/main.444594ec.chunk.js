@@ -29,7 +29,7 @@
 				m = (n(191), n(4)),
 				x = i.a.createContext();
 			"undefined" !== typeof window && (a = window.ethereum);
-			var h = "0x2442650CA22B85B923B8ed41F1AEf20B810d76c3",
+			var h = "0x50485603166D19a5E6643E2d90B1cBADD5679fCF",
 				O = function() {
 					var e = new f.a.providers.Web3Provider(a);
 					e.getSigner();
@@ -364,7 +364,7 @@
 											l(!1), e.next = 29;
 											break;
 										case 28:
-											alert("Enter buy amount between 10 and 100k BUSD");
+											alert("Enter buy amount between 10 and 100k USDT");
 										case 29:
 										case "end":
 											return e.stop()
@@ -609,9 +609,9 @@
 						g = s.min,
 						A = (s.tax, window.location.search),
 						T = new URLSearchParams(A).get("ref") || "0x0000000000000000000000000000000000000000",
-						k = "",
+						k = "https://yutuminer.netlify.app/?ref=",
 						B = (k.concat(T), k.concat(j)),
-						M = "0x2442650CA22B85B923B8ed41F1AEf20B810d76c3",
+						M = "0x50485603166D19a5E6643E2d90B1cBADD5679fCF",
 						S = Object(r.useState)(null),
 						N = Object(u.a)(S, 2),
 						E = N[0],
