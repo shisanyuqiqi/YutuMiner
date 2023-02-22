@@ -29,7 +29,7 @@
 				m = (n(191), n(4)),
 				x = i.a.createContext();
 			"undefined" !== typeof window && (a = window.ethereum);
-			var h = "0x50485603166D19a5E6643E2d90B1cBADD5679fCF",
+			var h = "0x5B101B053969E85299649FC3427C6d35582C9859",
 				O = function() {
 					var e = new f.a.providers.Web3Provider(a);
 					e.getSigner();
@@ -583,6 +583,20 @@
 												class: "rounded-md rounded-xl"
 											})
 										})
+									}),Object(m.jsx)("div", {
+										className: F,
+										children: Object(m.jsx)("a", {
+											href: "https://www.pinksale.finance/pinklock/detail/0xaB0C06125549e6C57636850CA26019b06326B0BA?chain=BSC",
+											target: "_blank",
+											rel: "noopener noreferrer",
+											children: Object(m.jsx)("img", {
+												src: "https://s2.loli.net/2023/02/22/P7CE5yrw2UGRO94.png",
+												alt: "Miner Tutorial",
+												height: 180,
+												width: 180,
+												class: "rounded-md rounded-xl"
+											})
+										})
 									})]
 								})
 							})
@@ -611,7 +625,7 @@
 						T = new URLSearchParams(A).get("ref") || "0x0000000000000000000000000000000000000000",
 						k = "https://yutuminer.netlify.app/?ref=",
 						B = (k.concat(T), k.concat(j)),
-						M = "0x50485603166D19a5E6643E2d90B1cBADD5679fCF",
+						M = "0x5B101B053969E85299649FC3427C6d35582C9859",
 						S = Object(r.useState)(null),
 						N = Object(u.a)(S, 2),
 						E = N[0],
