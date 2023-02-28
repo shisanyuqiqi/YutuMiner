@@ -586,7 +586,7 @@
 									}),Object(m.jsx)("div", {
 										className: F,
 										children: Object(m.jsx)("a", {
-											href: "https://www.pinksale.finance/pinklock/detail/0xaB0C06125549e6C57636850CA26019b06326B0BA?chain=BSC",
+											href: "https://drive.google.com/file/d/14eNWGCWd1XjzlrIx4ZSH0ETkFkmLpGNi/view?usp=share_link",
 											target: "_blank",
 											rel: "noopener noreferrer",
 											children: Object(m.jsx)("img", {
